@@ -1,4 +1,71 @@
 body {
+  width: 1920px;/*auto*/
   margin: 0;
   padding: 0;
+}
+
+.header {
+  width: 1920px;/*auto*/
+  height: 800px;
+  background-image: url("../img/header__photo.png");
+}
+
+.header__navigation {
+  height:150px;
+  background-color: rgba(102,102,102,0.6);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.header__navigation-logo {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header__navigation-wrapper {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.header__navigation-wrapper a {
+  display: block;
+  padding: 0px 50px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header__navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+.header__text {
+  padding-left: 500px;
+  padding-top: 250px;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 42px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 990px;
+  height: 140px;
+}
+
+.header__text:nth-child(1) {
+  padding-left: 50px;
+
 }
